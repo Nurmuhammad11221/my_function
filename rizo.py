@@ -137,18 +137,41 @@
 # car = avto_info("GM", "Genetra", "Qora", "Avtomat", 2023, 17_000)
 # print(car)
 
-def about(ismi, familasi, tugilgan_yili, tugilgan_joy, email_manzili, tel_raqam):
-    yosh = 2024 - tugilgan_yili
-    malumot = {
-        'ismi': ismi,
-        'familasi': familasi,
-        'tugilgan_yili': tugilgan_yili,
-        'yosh': yosh,
-        'tugilgan_joy':  tugilgan_joy,
-        'email_manzili': email_manzili,
-        'tel_raqam': tel_raqam,
-    }
-    return malumot
+# def about(ismi, familasi, tugilgan_yili, tugilgan_joy, email_manzili, tel_raqam):
+#     yosh = 2024 - tugilgan_yili
+#     malumot = {
+#         'ismi': ismi,
+#         'familasi': familasi,
+#         'tugilgan_yili': tugilgan_yili,
+#         'yosh': yosh,
+#         'tugilgan_joy':  tugilgan_joy,
+#         'email_manzili': email_manzili,
+#         'tel_raqam': tel_raqam,
+#     }
+#     return malumot
 
-odam = about(f"John", "Doe", 2010, "Toshkent", "emailemail@gmail.com", 917987700)
-print(odam) 
+# odam = about(f"John", "Doe", 2010, "Toshkent", "emailemail@gmail.com", 917987700)
+# print(odam) 
+
+
+
+# 2
+
+
+
+# 3
+
+def kata(a, b, c):
+    return max(a, b, c)
+
+num1 = input("Birinchi sonni kiriting: ")
+num2 = input("Ikkinchi sonni kiriting: ")
+num3 = input("Uchinchi sonni kiriting: ")
+
+orasida_kotasi = kata(num1, num2, num3)
+
+print(f"{orasida_kotasi}")
+
+
+
+
